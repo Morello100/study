@@ -1,0 +1,67 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+
+}
+body{
+    background: linear-gradient(320deg,orange,firebrick,mediumseagreen);
+    margin-right: 10vmin;
+    margin-left: 10vmin;
+}
+#message-container {
+    height: 200px;
+    overflow-y: scroll;
+    border: 1px solid #ccc;
+    padding: 100px;
+    background:cadetblue;
+}
+
+
+#message-form {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    background: gray;
+    flex-grow: 1;
+    margin-right: 10px;
+}
+
+.arrow {
+    background: gray;
+    -webkit-transform: rotate(-180deg);
+    font-weight: bold;
+}
+.information{
+    position: initial;
+    padding: 1px;
+}
+.Avatar img {
+    width: 10vmin;
+    height: 10vmin;
+}
+
+.name{
+    width: 10vmin;
+    height: 10vmin;
+    padding:1px;
+}
+
+.delete{
+    background-image: url('images/scrap heap.png');
+    position:relative;
+    background-color: inherit;
+    background-position: center;
+    background-size: contain;
+    float: right;
+    width: 9vmin;
+    height: 9vmin;
+    padding:10px;
+    border-radius:10%;
+    border-color: inherit;
+}
+
+@media screen and (max-width: 600px) {
+    …
+}
